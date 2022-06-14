@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="about">
+    {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+
+    {{ content }}
+
+    <h2>Fellows</h2>
+    
+    {% for fellow in site.fellows %}
+    <h3>
+        <a href="{{ fellow.url }}">
+        {{ fellow.name }} - {{ fellow.position }}
+        </a>
+    </h3>
+    <p>{{ fellow.description | markdownify }}</p>
+    {% endfor %}
+
+</div>
