@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Cameron's First Post"
+date:   2022-06-14 10:45:00 -0400
+categories: cameron
+---
+
+This is my *first* post.
