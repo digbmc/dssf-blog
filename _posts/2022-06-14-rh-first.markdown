@@ -2,7 +2,7 @@
 layout: post
 title:  "Rafiun's First Post!"
 date:   2022-06-14 10:45:00 -0400
-categories: rafiun
+category: Rafiun Haque
 ---
 
 This is my 1st post.

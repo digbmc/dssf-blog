@@ -9,6 +9,16 @@ layout: default
 
   {{ content }}
 
+  {% for fellow in site.fellows %}
+  <p>
+      <a href="{{ fellow.url }}">
+      {{ fellow.name }}
+      </a>
+  </p>
+  {% endfor %}
+
+  <h2>All Posts</h2>
+
     {% if site.paginate %}
       {% assign posts = paginator.posts %}
     {% else %}
