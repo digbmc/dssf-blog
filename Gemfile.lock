@@ -69,10 +69,15 @@ GEM
 
 PLATFORMS
 <<<<<<< HEAD
+<<<<<<< HEAD
   x64-mingw-ucrt
 =======
   x86_64-darwin-19
 >>>>>>> eee04ffda76f893744db1d7861f4bcef83d8ae59
+=======
+  x64-mingw-ucrt
+  x86_64-darwin-19
+>>>>>>> 355dd16cf2f216cd377a6bfb189c722dc58206b5
   x86_64-darwin-21
 
 DEPENDENCIES
