@@ -5,36 +5,37 @@
   
       <div class="footer-col-wrapper">
         <div class="footer-col">
-        {%- if site.XML-feed == true -%}
-            <p class="feed-subscribe">
-                <a href="{{ 'feed.xml' | relative_url }}">
-                <svg class="svg-icon orange">
-                    <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-                </svg><span>Subscribe</span>
-                </a>
-            </p>
-        {%- endif %}
 
-        {%- if site.DS-link -%}
-          <ul class="contact-list">
-            <li class="p-name">Check out the BMC DS blog page:</li>
-            <li><a class="u-email" href="{{site.DS-link}}">Digital Scholarship @ Bryn Mawr College</a></li>
-          </ul>
-        {%- endif %}
+            <p>{{ site.description | escape }}</p>
 
-        {%- if site.author %}
-          <ul class="contact-list">
-            {% if site.author.name -%}
-              <li class="p-name">{{ site.author.name | escape }}</li>
-            {% endif -%}
-            {% if site.author.email -%}
-              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            {%- if site.XML-feed == true -%}
+                <p class="feed-subscribe">
+                    <a href="{{ 'feed.xml' | relative_url }}">
+                    <svg class="svg-icon orange">
+                        <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                    </svg><span>Subscribe</span>
+                    </a>
+                </p>
             {%- endif %}
-          </ul>
-        {%- endif %}
+
+            {%- if site.author %}
+            <ul class="contact-list">
+                {% if site.author.name -%}
+                <li class="p-name">{{ site.author.name | escape }}</li>
+                {% endif -%}
+                {% if site.author.email -%}
+                <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+                {%- endif %}
+            </ul>
+            {%- endif %}
         </div>
         <div class="footer-col">
-          <p>{{ site.description | escape }}</p>
+          {%- if site.DS-link -%}
+            <ul class="contact-list">
+                <li class="p-name">Check out the main BMC Digital Scholarship blog site:</li>
+                <li><a class="u-email" href="{{site.DS-link}}">Digital Scholarship @ Bryn Mawr College</a></li>
+            </ul>
+            {%- endif %}
         </div>
       </div>
   
