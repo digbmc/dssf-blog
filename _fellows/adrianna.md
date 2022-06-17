@@ -5,6 +5,7 @@ position: DSSF
 description: Bryn Mawr College
 layout: fellow
 list_title: Adrianna's Posts
+image: /assets/creature-icons/creature-2.png
 ---
 Adrianna is a DSSF.
 

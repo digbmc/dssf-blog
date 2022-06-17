@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="blog">
+  
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -12,7 +13,7 @@ layout: default
   <ul>
   {% for fellow in site.fellows %}
   <li>
-      <a href="{{ fellow.url }}">
+      <a href="{{ fellow.url }}#posts">
       {{ fellow.name }}
       </a>
     </li>

@@ -5,6 +5,7 @@ position: DSSF
 description: Bryn Mawr College
 layout: fellow
 list_title: Rafiun's Posts
+image: /assets/creature-icons/creature-4.png
 ---
 Rafiun is a DSSF.
 
