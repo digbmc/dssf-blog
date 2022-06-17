@@ -9,13 +9,15 @@ layout: default
 
   {{ content }}
 
+  <ul>
   {% for fellow in site.fellows %}
-  <p>
+  <li>
       <a href="{{ fellow.url }}">
       {{ fellow.name }}
       </a>
-  </p>
+    </li>
   {% endfor %}
+  </ul>
 
   <h2>All Posts</h2>
 
