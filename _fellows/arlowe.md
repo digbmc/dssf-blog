@@ -5,6 +5,7 @@ position: DSSF
 description: Bryn Mawr College
 layout: fellow
 list_title: Arlowe's Posts
+image: /assets/creature-icons/creature-1.png
 ---
 Arlowe is a DSSF.
 

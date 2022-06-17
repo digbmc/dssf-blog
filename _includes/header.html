@@ -1,13 +1,10 @@
 <header class="site-header">
-
-    <div class="wrapper">
-      {%- assign default_paths = site.pages | map: "path" -%}
-      {%- assign page_paths = site.header_pages | default: default_paths -%}
-      {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  
-      {%- if titles_size > 0 -%}
-        <nav class="site-nav">
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        <nav class="site-nav navbar navbar-expand-lg navbar-light navbar-bg-light">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
           <label for="nav-trigger">
             <span class="menu-icon">
@@ -16,16 +13,28 @@
               </svg>
             </span>
           </label>
-  
-          <div class="trigger">
-            {%- for path in page_paths -%}
-              {%- assign my_page = site.pages | where: "path", path | first -%}
-              {%- if my_page.title -%}
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-              {%- endif -%}
-            {%- endfor -%}
+          
+          <div class="collapse navbar-collapse trigger" id="navbarSupportedContent" target="navbarSupportedContent">
+            <ul class="nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/about/">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/blog" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Blogs
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/blog">Blog Home</a>
+                    <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/fellows/adrianna.html">Adrianna</a>
+                  <a class="dropdown-item" href="/fellows/arlowe.html">Arlowe</a>
+                  <a class="dropdown-item" href="/fellows/cameron.html">Cameron</a>
+                  <a class="dropdown-item" href="/fellows/rafiun.html">Rafiun</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/project/">Toolkit</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      {%- endif -%}
-    </div>
-  </header>
+</header>
