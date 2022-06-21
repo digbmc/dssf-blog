@@ -6,3 +6,5 @@ vendor
 .bundle/config
 .bundle
 Gemfile.lock
+notes
+.DS_Store
