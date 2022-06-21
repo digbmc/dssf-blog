@@ -1,8 +1,9 @@
 ---
 layout: project
-subheading: Our Project
 title: Critical Web Design Toolkit
+subheading: Our Project
 permalink: /project/
+hero-header: true
 ---
 
 **The Critical Web Design Toolkit**  <br>

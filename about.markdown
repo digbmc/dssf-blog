@@ -2,6 +2,7 @@
 layout: about
 title: About Us
 permalink: /about/
+hero-header: true
 ---
 
 Responsibilities of the DSSFs change yearly depending on the requirements of the program's project.

@@ -3,6 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Digital Scholarship Summer Fellowship Blog 2022
+hero-header: true
 ---
 
 Welcome to the Digital Scholarship Summer Fellows Blogsite for the 2022 Program!
