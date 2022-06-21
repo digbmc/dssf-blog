@@ -3,7 +3,7 @@ layout: post
 title: Designing the DSSF blogsite 
 date: 2022-06-16 09:31:34 -0400 
 category: Adrianna Morsey
-author: adrianna
+post-home: adrianna
 ---
 
 This morning, the other interns and I continued to work on our project for the blog site. It was a challenging and slow process, especially when working through past errors that kept on persisting or new errors that popped up. In my branch, for example, my website stopped loading properly and only displayed an index of the site's HTML files instead of the actual site itself as it is supposed to be interpreted. I'm hoping that tomorrow I can fix that error and then finish up the front-end design of the site with the color-block heading on each page and writing out all the content. 
