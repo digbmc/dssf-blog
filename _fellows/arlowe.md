@@ -2,11 +2,9 @@
 title: Arlowe Willingham
 name: Arlowe Willingham
 position: DSSF
-description: Bryn Mawr College
+description: Bryn Mawr College '24, Linguistics Major
 layout: fellow
 list_title: Arlowe's Posts
 image: /assets/creature-icons/creature-1.png
 ---
-Arlowe is a DSSF.
-
-Then with swiftness, but with absolute method, Van Helsing performed the operation. As the transfusion went on something like life seemed to come back to poor Lucy's cheeks, and through Arthur's growing pallor the joy of his face seemed absolutely to shine. After a bit I began to grow anxious, for the loss of blood was telling on Arthur, strong man as he was. It gave me an idea of what a terrible strain Lucy's system must have undergone that what weakened Arthur only partially restored her. But the Professor's face was set, and he stood watch in hand and with his eyes fixed now on the patient and now on Arthur. I could hear my own heart beat. Presently he said in a soft voice: "Do not stir an instant. It is enough. You attend him; I will look to her." When all was over I could see how much Arthur was weakened. I dressed the wound and took his arm to bring him away, when Van Helsing spoke without turning round--the man seems to have eyes in the back of his head:--
+Arlowe is a Linguistics major with an intended Visual Studies minor. They are interested in exploring visual representations of data through Digital Scholarship, as it rests at the cross-section of their current academic focus. More broadly in their studies, he seeks to research interactions between textual to visual narratives and intermedia work as it applies to the digital arts and humanities. Working with visual mediums online, he has been independently writing image descriptions and learning more about web accessibility since high school and is excited to be involved in a program with an accessible approach to web design. They cannot wait to share the resources in development this summer with the rest of the Bryn Mawr community!
