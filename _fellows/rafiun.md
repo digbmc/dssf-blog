@@ -2,11 +2,10 @@
 title: Rafiun Haque
 name: Rafiun Haque
 position: DSSF
-description: Bryn Mawr College
+description: Bryn Mawr College '25, Computer Science Major
 layout: fellow
 list_title: Rafiun's Posts
 image: /assets/creature-icons/creature-4.png
 ---
-Rafiun is a DSSF.
 
-Then with swiftness, but with absolute method, Van Helsing performed the operation. As the transfusion went on something like life seemed to come back to poor Lucy's cheeks, and through Arthur's growing pallor the joy of his face seemed absolutely to shine. After a bit I began to grow anxious, for the loss of blood was telling on Arthur, strong man as he was. It gave me an idea of what a terrible strain Lucy's system must have undergone that what weakened Arthur only partially restored her. But the Professor's face was set, and he stood watch in hand and with his eyes fixed now on the patient and now on Arthur. I could hear my own heart beat. Presently he said in a soft voice: "Do not stir an instant. It is enough. You attend him; I will look to her." When all was over I could see how much Arthur was weakened. I dressed the wound and took his arm to bring him away, when Van Helsing spoke without turning round--the man seems to have eyes in the back of his head:--
+Rafiun is an intended Computer Science major and a Math minor. She is passionate about making things more accessible to the larger community. She looks forward to building a static website while acquiring data visualization, project management, and graphics designing skills with her team. Her hobbies include listening to music, singing, and painting canvases. She also enjoys re-watching FRIENDS whenever she gets the time.
