@@ -341,3 +341,9 @@
       width: calc(50% - (#{$spacing-unit} / 2));
     }
   }
+
+
+.post-author {
+  color: lightgray;
+  padding-top: 0;
+}
