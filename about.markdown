@@ -14,3 +14,7 @@ This Summer for work on the Critical Web Design Toolkit Fellows are expected to 
 - Design and create learning resources for critical web design issues
 
 as described in the Project Charter by Project Manager Karina Gonzalez. 
+
+In order to fulfill these responsibilities, the DSSFs will continue working with the rest of the team to gain skills in various web programming languages (including HTML, CSS, and Ruby/Jekyll), research resources surrounding static sites, the indie web movement, and learning tools to help structure our documentation, and work together to establish and launch the first version of the Critical Web Design Toolkit by the final date of the program: August 5th.
+
+Some smaller projects that have helped us thus far have been independently developing static personal websites and building this blogsite you are currently viewing!
