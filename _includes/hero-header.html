@@ -1,0 +1,31 @@
+<hero-header class="hero-header">
+    <style>
+        .hero-background {
+        /* background-image: url(/assets/img/landing.jpeg); */
+        background-color: coral;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position:relative;
+        }
+        .hero-text {
+        text-align:left;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: Arial, Verdana, sans-serif;
+        font-weight: bold;
+        }
+    </style>
+
+    <div class="hero-background">
+        <div class="hero-text">
+        {%- if page.title -%}
+        <h1 style="font-size:70px; font-family: Arial, Geneva, sans-serif;">{{ page.title }}</h1>
+        {%- endif -%}
+        </div>
+    </div>
+</hero-header>
