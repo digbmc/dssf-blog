@@ -5,7 +5,7 @@ position: DSSF
 description: Bryn Mawr College '23, Russian Major
 layout: fellow
 list_title: Cameron's Posts
+image: /assets/creature-icons/creature-3.png
 ---
-Cameron is a DSSF.
 
-Then with swiftness, but with absolute method, Van Helsing performed the operation. As the transfusion went on something like life seemed to come back to poor Lucy's cheeks, and through Arthur's growing pallor the joy of his face seemed absolutely to shine. After a bit I began to grow anxious, for the loss of blood was telling on Arthur, strong man as he was. It gave me an idea of what a terrible strain Lucy's system must have undergone that what weakened Arthur only partially restored her. But the Professor's face was set, and he stood watch in hand and with his eyes fixed now on the patient and now on Arthur. I could hear my own heart beat. Presently he said in a soft voice: "Do not stir an instant. It is enough. You attend him; I will look to her." When all was over I could see how much Arthur was weakened. I dressed the wound and took his arm to bring him away, when Van Helsing spoke without turning round--the man seems to have eyes in the back of his head:--
+Cameron is a Russian major with a History minor and a strong interest in Comparative Literature. She developed an interest in digital scholarship through her work as a Digital Scholarship Project Assistant on the Encyclopedia of the Dog project, through which she was able to combine her Russian language skills with programming and web development. She also has a background in film studies, video editing, and broadcasting. Cameron is interested in accessible and sustainable web design, including multilingual design. She is excited to continue to explore and work within the interdisciplinary field of digital scholarship.

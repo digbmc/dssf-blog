@@ -3,19 +3,18 @@ layout: default
 ---
 
 <div class="blog">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
+  
   {{ content }}
 
+  <ul>
   {% for fellow in site.fellows %}
-  <p>
-      <a href="{{ fellow.url }}">
+  <li>
+      <a href="{{ fellow.url }}#posts">
       {{ fellow.name }}
       </a>
-  </p>
+    </li>
   {% endfor %}
+  </ul>
 
   <h2>All Posts</h2>
 
@@ -34,12 +33,20 @@ layout: default
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in posts -%}
     <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <p class="post-meta"><span class="post-meta">{{ post.date | date: date_format }}  </span>
+          {%- if post.category -%}
+              • {% for category in post.category %}
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <span class="p-author h-card" itemprop="name">{{ category }}</span></span>
+                {%- if forloop.last == false %}, {% endif -%}
+            {% endfor %}
+          {%- endif -%}</p>
         <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
         </a>
         </h3>
+
         {%- if site.show_excerpts -%}
         {{ post.excerpt }}
         {%- endif -%}
