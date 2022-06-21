@@ -5,4 +5,4 @@
 layout: home
 ---
 
-This is the home page.
+Welcome to the Digital Scholarship Summer Fellows Blogsite for the 2022 Program! Here we will occasionally update our progress on the development of this summer's project: The Critical Web Design Toolkit.
