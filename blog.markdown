@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Blog
-permalink: /blog/
+permalink: /dssf-blog/blog/
 hero-header: true
 ---
 
