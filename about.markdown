@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About Us
-permalink: /about/
+permalink: /dssf-blog/about/
 hero-header: true
 ---
 
