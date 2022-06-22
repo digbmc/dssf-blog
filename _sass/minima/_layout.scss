@@ -2,8 +2,6 @@
  * Site header
  */
  .site-header {
-    border-top: 5px solid $border-color-03;
-    border-bottom: 1px solid $border-color-01;
     min-height: $spacing-unit * 1.865;
     line-height: $base-line-height * $base-font-size * 2.25;
   
@@ -15,8 +13,8 @@
     @include relative-font-size(1.625);
     font-weight: 300;
     letter-spacing: -1px;
-    margin-bottom: 0;
-    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-top: 7px;
     float: left;
   
     @include media-query($on-palm) {
@@ -34,7 +32,7 @@
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $border-color-01;
+    /* border: 1px solid $border-color-01; */
     border-radius: 10px;
     text-align: right;
   
@@ -75,10 +73,11 @@
     }
   
     .page-link {
-      color: $text-color;
+      color: $header-text-color;
       line-height: $base-line-height;
       display: block;
       padding: 5px 10px;
+    
   
       // Gaps between nav items, but not on the last one
       &:not(:last-child) {
@@ -87,6 +86,19 @@
       margin-left: 20px;
     }
   
+    .nav-link {
+      color: $header-text-color;
+      line-height: $base-line-height;
+      display: block;
+      padding: 15px 10px; 
+
+      // Gaps between nav items, but not on the last one
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      margin-left: 20px;
+      }
+
     @media screen and (min-width: $on-medium) {
       position: static;
       float: right;
@@ -145,7 +157,7 @@
   .footer-col-wrapper,
   .social-links {
     @include relative-font-size(0.9375);
-    color: $brand-color-dark;
+    color: $header-text-color;
   }
   
   .footer-col {
@@ -343,23 +355,32 @@
   }
 
 
+.hero-header {
+  border-top: 10px, #ffffff;
+  border-bottom: 1px, #ffffff;
+}
 
 .hero-background {
   /* background-image: url(/assets/img/landing.jpeg); */
-  background-color: $brand-color;
+  background-color: #ffffff00;
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
   }
+
   .hero-text {
-  text-align: center;
+  text-align: left;
   position: absolute;
+  font-size: 10000px;
+  @media screen and (min-width: $on-large) {
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: $background-color;
-  font-family: Arial, Verdana, sans-serif;
-  font-weight: bold;
+  color: $header-text-color;
   }

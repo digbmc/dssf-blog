@@ -1,9 +1,23 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div class="home">
+  {%- include head.html -%}
 
-  {{ content }}
+  <body>
 
-</div>
+    {%- include header.html -%}
+    {%- if page.hero-header -%}
+      {%- include hero-header.html -%}
+    {%- endif -%}
+    
+    <main class="page-content" aria-label="Content">
+      <div class="header-wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
