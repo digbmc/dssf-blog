@@ -23,8 +23,8 @@ email:
 DS-link: "https://digitalscholarship.blogs.brynmawr.edu/"
 description: >- # this means to ignore newlines until "baseurl:"
   This is the blog site of the 2022 Digital Scholarship Summer Fellows at Bryn Mawr College.
-baseurl: /dssf-blog/ # the subpath of your site, e.g. /blog
-url: cboucher.github.io/dssf-blog # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: # the subpath of your site, e.g. /blog
+url: cboucher.github.io/dssf-blog/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
 XML-feed: false
