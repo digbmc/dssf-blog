@@ -6,8 +6,17 @@
   <body>
 
     {%- include header.html -%}
+    
     {%- if page.hero-header -%}
-      {%- include hero-header.html -%}
+      <div class="header-wrapper">
+        {%- include hero-header.html -%}
+      </div>
+    {%- endif -%}
+
+    {%- if page.hero-header == false -%}
+      <div class="header-wrapper">
+        <h1 class="page-title" style="font-size: 40px; font-weight: 900;">{{ page.title }}</h1>
+      </div>
     {%- endif -%}
     
     <main class="page-content" aria-label="Content">
