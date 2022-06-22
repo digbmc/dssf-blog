@@ -3,7 +3,7 @@ layout: project
 title: Critical Web Design Toolkit
 subheading: Our Project
 permalink: /project/
-hero-header: true
+hero-header: false
 ---
 
 **The Critical Web Design Toolkit**  <br>
