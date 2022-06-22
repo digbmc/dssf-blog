@@ -153,7 +153,19 @@
     list-style: none;
     margin-left: 0;
   }
-  
+
+  .u-email:link {
+    color: $footer-link-base-color;
+  }
+
+  .u-email:visited {
+    color: $footer-link-visited-color;
+  }
+
+  .u-email:hover {
+    color: $footer-link-hover-color;
+  }
+
   .footer-col-wrapper,
   .social-links {
     @include relative-font-size(0.9375);
@@ -237,7 +249,7 @@
   
   .post-meta {
     font-size: $small-font-size;
-    color: $brand-color;
+    color: $text-color;
   }
   
   .post-link {
@@ -354,33 +366,57 @@
     }
   }
 
+  /**
+  * Page title headers
+  */
 
-.hero-header {
-  border-top: 10px, #ffffff;
-  border-bottom: 1px, #ffffff;
-}
+  .home-background {
+    /* background-image: url(/assets/img/landing.jpeg); */
+    background-color: #ffffff00;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    }
 
-.hero-background {
-  /* background-image: url(/assets/img/landing.jpeg); */
-  background-color: #ffffff00;
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position:relative;
-  }
+    .home-text {
+    text-align: left;
+    position: absolute;
+    font-size: 10000px;
+    @media screen and (min-width: $on-large) {
+      max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+      padding-right: $spacing-unit;
+      padding-left: $spacing-unit;
+    }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $header-text-color;
+    }
 
-  .hero-text {
-  text-align: left;
-  position: absolute;
-  font-size: 10000px;
-  @media screen and (min-width: $on-large) {
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-  }
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: $header-text-color;
-  }
+
+  .hero-background {
+    /* background-image: url(/assets/img/landing.jpeg); */
+    background-color: #ffffff00;
+    height: 175px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    }
+
+    .hero-text {
+    text-align: left;
+    position: absolute;
+    font-size: 10000px;
+    @media screen and (min-width: $on-large) {
+      max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+      padding-right: $spacing-unit;
+      padding-left: $spacing-unit;
+    }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $header-text-color;
+    }

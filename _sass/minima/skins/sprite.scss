@@ -13,9 +13,12 @@ $background-color-1:      #abd699 !default;
 $background-color-2:        #75c9b7 !default;
 $code-background-color: #c7ddcc !default;
 
-$link-base-color:       #ffe26a !default;
+$link-base-color:       #75c9b7 !default;
 $link-visited-color:    darken($link-base-color, 15%) !default;
 $link-hover-color:      $text-color !default;
+$footer-link-base-color:       #ffe26a !default;
+$footer-link-visited-color:    darken($footer-link-base-color, 15%) !default;
+$footer-link-hover-color:      $text-color !default;
 
 $border-color-01:       $brand-color-light !default;
 $border-color-02:       lighten($brand-color, 35%) !default;

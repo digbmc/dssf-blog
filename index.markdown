@@ -4,5 +4,5 @@
 
 layout: home
 title: Digital Scholarship Summer Fellowship Blog 2022
-hero-header: true
+home-header: true
 ---
