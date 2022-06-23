@@ -9,7 +9,7 @@ layout: default
   <ul>
   {% for fellow in site.fellows %}
   <li>
-      <a href="{{ fellow.url }}#posts">
+      <a href="{{ site.baseurl }}{{ fellow.url }}#posts">
       {{ fellow.name }}
       </a>
     </li>
