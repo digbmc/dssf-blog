@@ -34,11 +34,12 @@
     position: absolute;
     top: $spacing-unit / 2;
     right: $spacing-unit / 2;
-    background-color: $background-color;
+    background-color: $background-color-2;
     border: 1px solid $border-color-01;
     padding: 10px;
     border-radius: 5px;
     text-align: right;
+    flex-wrap: nowrap;
   
     .nav-trigger {
       display: none;
@@ -105,6 +106,10 @@
       margin-left: 20px;
       }
 
+    .nav-item {
+      margin: 0;
+      padding: 0
+    }
     @media screen and (min-width: $on-medium) {
       position: static;
       float: right;
