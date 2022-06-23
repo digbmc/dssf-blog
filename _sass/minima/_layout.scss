@@ -260,6 +260,13 @@
     display: block;
     @include relative-font-size(1.5);
   }
+
+  .fellow-image {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
   
   
   
