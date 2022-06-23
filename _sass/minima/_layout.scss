@@ -26,6 +26,7 @@
     &,
     &:visited {
       color: $site-title-color;
+      text-shadow: 2px 2px 5px $shadow-color;
     }
   }
   
@@ -92,6 +93,7 @@
   
     .nav-link {
       color: $header-text-color;
+      text-shadow: 2px 2px 5px $shadow-color;
       line-height: $base-line-height;
       display: inline;
       padding: 10px; 
@@ -173,11 +175,12 @@
   .footer-col-wrapper,
   .social-links {
     @include relative-font-size(0.9375);
-    color: $header-text-color;
   }
   
   .footer-col {
     margin-bottom: $spacing-unit / 2;
+    color: $header-text-color;
+    text-shadow: 2px 2px 5px $shadow-color;
   }
   
   .footer-col-1,
@@ -403,6 +406,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: $header-text-color;
+    text-shadow: 2px 2px 5px $shadow-color;
     }
 
 
@@ -423,8 +427,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: $header-text-color;
+    text-shadow: 2px 2px 5px $shadow-color;
     }
 
   .page-title {
     color: $header-text-color;
+    text-align: center;
+    text-shadow: 2px 2px 5px $shadow-color;
   }

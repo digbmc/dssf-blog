@@ -4,23 +4,23 @@
   {%- include head.html -%}
 
   <body>
+    <div class="creature-background">
+      {%- include header.html -%}
+      {%- if page.hero-header -%}
+        {%- include hero-header.html -%}
+      {%- endif -%}
+      {%- if page.home-header -%}
+        {%- include home-header.html -%}
+      {%- endif -%}
+      
+      <main class="page-content" aria-label="Content">
+        <div class="header-wrapper">
+          {{ content }}
+        </div>
+      </main>
 
-    {%- include header.html -%}
-    {%- if page.hero-header -%}
-      {%- include hero-header.html -%}
-    {%- endif -%}
-    {%- if page.home-header -%}
-      {%- include home-header.html -%}
-    {%- endif -%}
-    
-    <main class="page-content" aria-label="Content">
-      <div class="header-wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
+      {%- include footer.html -%}
+    </div>
   </body>
 
 </html>

@@ -4,29 +4,29 @@
   {%- include head.html -%}
 
   <body>
+    <div class="creature-background">
+      {%- include header.html -%}
+      
+      {%- if page.hero-header -%}
+        <div class="header-wrapper">
+          {%- include hero-header.html -%}
+        </div>
+      {%- endif -%}
 
-    {%- include header.html -%}
-    
-    {%- if page.hero-header -%}
-      <div class="header-wrapper">
-        {%- include hero-header.html -%}
-      </div>
-    {%- endif -%}
+      {%- if page.hero-header == false -%}
+        <div class="header-wrapper">
+          <h1 class="page-title" style="font-size: 40px; font-weight: 900;">{{ page.title }}</h1>
+        </div>
+      {%- endif -%}
+      
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
 
-    {%- if page.hero-header == false -%}
-      <div class="header-wrapper">
-        <h1 class="page-title" style="font-size: 40px; font-weight: 900;">{{ page.title }}</h1>
-      </div>
-    {%- endif -%}
-    
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
+      {%- include footer.html -%}
+    </div>
   </body>
 
 </html>
