@@ -2,7 +2,7 @@
 layout: project
 title: Critical Web Design Toolkit
 subheading: Our Project
-permalink: /project/
+permalink: {{ site.baseurl }}/project/
 hero-header: false
 ---
 

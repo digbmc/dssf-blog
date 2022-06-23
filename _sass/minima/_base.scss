@@ -36,7 +36,7 @@ html {
   }
   
   .creature-background {
-    background-image: url(/assets/creature-icons/creature-tile.png);
+    background-image: url({{ site.baseurl }}/assets/creature-icons/creature-tile.png);
   }
   
   /**

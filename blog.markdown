@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Blog
-permalink: /blog/
+permalink: {{ site.baseurl }}/blog/
 hero-header: false
 ---
 
