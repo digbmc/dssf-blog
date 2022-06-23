@@ -35,7 +35,9 @@ html {
     overflow-wrap: break-word;
   }
   
-  
+  .creature-background {
+    background-image: url(/assets/creature-icons/creature-tile.png);
+  }
   
   /**
    * Set `margin-bottom` to maintain vertical rhythm
@@ -205,6 +207,7 @@ html {
     padding: $spacing-unit;
     background-color: #ffffff;
     border-radius: 40px;
+    box-shadow: 5px 5px 5px $shadow-color;
     @extend %clearfix;
   
     @media screen and (min-width: $on-large) {

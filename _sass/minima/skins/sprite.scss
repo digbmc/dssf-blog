@@ -11,6 +11,7 @@ $header-text-color:      #ffffff !default;
 $background-color:      #82a573 !default;
 $background-color-1:      #82a573 !default;
 $background-color-2:        #4b8276 !default;
+$shadow-color:          darken($background-color, 15%);
 $code-background-color: #c7ddcc !default;
 
 $link-base-color:       #3c8f7d !default;
