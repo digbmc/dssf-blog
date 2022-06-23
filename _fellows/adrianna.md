@@ -6,7 +6,7 @@ description: >
     Bryn Mawr College '23, Cities Major
 layout: fellow
 list_title: Adrianna's Posts
-image: /assets/creature-icons/creature-2.png
+image: /dssf-blog/assets/creature-icons/creature-2.png
 ---
 Adrianna is a Growth & Structure of Cities major at Bryn Mawr who studies sustainability and social equity in cities.
 
