@@ -10,7 +10,7 @@ layout: default
     
     {% for fellow in site.fellows %}
     <h3>
-        <a href="{{ fellow.url }}">
+        <a href="{{ site.baseurl }}{{ fellow.url }}">
         {{ fellow.name }}
         </a>
     </h3>
