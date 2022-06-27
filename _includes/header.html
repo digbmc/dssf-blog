@@ -26,10 +26,11 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="{{ site.baseurl }}/blog">Blog Home</a>
                     <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="{{ site.baseurl }}/fellows/adrianna.html">Adrianna</a>
-                  <a class="dropdown-item" href="{{ site.baseurl }}/fellows/arlowe.html">Arlowe</a>
-                  <a class="dropdown-item" href="{{ site.baseurl }}/fellows/cameron.html">Cameron</a>
-                  <a class="dropdown-item" href="{{ site.baseurl }}/fellows/rafiun.html">Rafiun</a>
+                      {% for fellow in site.fellows %}
+                        <a class="dropdown-item" href="{{ site.baseurl }}{{ fellow.url }}">
+                            {{ fellow.title | split: " " | first }}
+                        </a>
+                      {% endfor %}
                 </div>
               </li>
               <li class="nav-item">
