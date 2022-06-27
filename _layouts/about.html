@@ -11,7 +11,7 @@ layout: default
     {% for fellow in site.fellows %}
     <h3>
         <a href="{{ site.baseurl }}{{ fellow.url }}">
-        {{ fellow.name }}
+        {{ fellow.title }}
         </a>
     </h3>
     <p>{{ fellow.description | markdownify }}</p>

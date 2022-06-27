@@ -1,9 +1,7 @@
 ---
-title: Arlowe Willingham
-name: Arlowe Willingham
-position: DSSF
-description: Bryn Mawr College '24, Linguistics Major
 layout: fellow
+title: Arlowe Willingham
+description: Bryn Mawr College '24, Linguistics Major
 list_title: Arlowe's Posts
 image: /dssf-blog/assets/creature-icons/creature-1.png
 ---

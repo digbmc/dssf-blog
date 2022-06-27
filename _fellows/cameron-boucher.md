@@ -1,9 +1,7 @@
 ---
-title: Cameron Boucher
-name: Cameron Boucher
-position: DSSF
-description: Bryn Mawr College '23, Russian Major
 layout: fellow
+title: Cameron Boucher
+description: Bryn Mawr College '23, Russian Major
 list_title: Cameron's Posts
 image: /dssf-blog/assets/creature-icons/creature-3.png
 ---

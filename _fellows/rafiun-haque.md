@@ -1,9 +1,7 @@
 ---
-title: Rafiun Haque
-name: Rafiun Haque
-position: DSSF
-description: Bryn Mawr College '25, Computer Science Major
 layout: fellow
+title: Rafiun Haque
+description: Bryn Mawr College '25, Computer Science Major
 list_title: Rafiun's Posts
 image: /dssf-blog/assets/creature-icons/creature-4.png
 ---
