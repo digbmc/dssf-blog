@@ -1,11 +1,13 @@
 # DSSF 2022 Blog Site
 
 (Brief description of site)
-- What does our sit do?
+- What does our site do?
 - Which kinds of code did we use?
 - Challenges faced / potential changes for the future?
 
 (Description of our use of [Minima](https://github.com/jekyll/minima))
+
+(Should we add a "how-to install and run" section?)
 
 (Description of how to make a site like this one)
 - Adding collections (like fellows)
