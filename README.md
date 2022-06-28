@@ -12,7 +12,12 @@ The Digital Scholarship Summer Fellow Blog was a beginner project for the fellow
   
 - Challenges faced / potential changes for the future?
 
-## (Description of our use of [Minima](https://github.com/jekyll/minima))
+## Working with Minima
+This site was created by editing Minima, Jekyll's first and default theme. As the default theme, Minima was a useful resource for developing the DSSF 2022 blog.
+
+Though there were various aesthetic changes made to the layout, navigation bar, background, post box, titles, headers, and more, portions of our site still rely on Minima to operate.
+
+You can compare our code and find out more about Minima [here](https://github.com/jekyll/minima).
 
 ## How-to install and run
 
