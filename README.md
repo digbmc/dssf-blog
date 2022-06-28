@@ -1,15 +1,22 @@
 # [DSSF 2022 Blog Site](https://cboucher01.github.io/dssf-blog/)
 
-## (Brief description of site)
-- What does our site do?
-- Which kinds of code did we use?
+## Site function
+
+The Digital Scholarship Summer Fellow Blog was a beginner project for the fellows to develop our web-development skills while creating a site to host our blog posts and information about us and the digital web design toolkit that we are currently building. 
+
+### Which kinds of code did we use?
+- HTML
+- CSS
+- JavaScript/Bootstrap
+- Jekyll/Ruby
+  
 - Challenges faced / potential changes for the future?
 
 ## (Description of our use of [Minima](https://github.com/jekyll/minima))
 
-## (Should we add a "how-to install and run" section?)
+## How-to install and run
 
-## (Description of how to make a site like this one)
+## How to make a site like this one
 - Adding collections (like fellows)
 - How to do a navbar like ours
 - Changing SCSS files to change the look of the site
