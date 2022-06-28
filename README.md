@@ -1,6 +1,9 @@
 # DSSF 2022 Blog Site
 
 (Brief description of site)
+- What does our sit do?
+- Which kinds of code did we use?
+- Challenges faced / potential changes for the future?
 
 (Description of our use of [Minima](https://github.com/jekyll/minima))
 
