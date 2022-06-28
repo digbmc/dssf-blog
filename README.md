@@ -18,7 +18,9 @@ Though there were various aesthetic changes made to the layout, navigation bar, 
 You can compare our code and find out more about Minima [here](https://github.com/jekyll/minima).
 
 ## How-to install and run
-The best way to run this project is to click on the website link [here](https://cboucher01.github.io/dssf-blog/). If you would like to make changes or add edits to the code, you can do that by forking this repository and adding it to your personal repositories on GitHub. From there, you can make changes directly on GitHub or download onto your computer and open with the VS Code application or your preferred coding app. 
+The best way to run this project is to click on the website link [here](https://cboucher01.github.io/dssf-blog/).
+
+If you would like to make changes or add edits to the code, you can do that by forking this repository and adding it to your personal repositories on GitHub. From there, you can make changes directly on GitHub or download onto your computer and open with the VS Code application or your preferred text editor. 
 
 ## How to make a site like this one
 - Adding collections (like fellows)
