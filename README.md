@@ -2,15 +2,13 @@
 
 ## Site function
 
-The Digital Scholarship Summer Fellow Blog was a beginner project for the fellows to develop our web-development skills while creating a site to host our blog posts and information about us and the digital web design toolkit that we are currently building. 
+The Digital Scholarship Summer Fellow Blog was a beginner project for the fellows to develop our web-development skills while creating a site to host our blog posts and information about us and the digital web design toolkit that we are currently building. During the coding process, we came across multiple challenges, including aligning our navbar, coordinating work on the site with multiple people using GitHub, organizing our workflow requests, and finally, deploying the site on GitHub. In the future, we are considering adding onto the site to make it a library depot for our learning resources for our future project, the digital web design toolkit. 
 
 ### Which kinds of code did we use?
 - HTML
 - SCSS
 - JavaScript/Bootstrap
 - Jekyll/Ruby
-  
-- Challenges faced / potential changes for the future?
 
 ## Working with Minima
 This site was created by editing Minima, Jekyll's first and default theme. As the default theme, Minima was a useful resource for developing the DSSF 2022 blog.
@@ -20,6 +18,7 @@ Though there were various aesthetic changes made to the layout, navigation bar, 
 You can compare our code and find out more about Minima [here](https://github.com/jekyll/minima).
 
 ## How-to install and run
+The best way to run this project is to click on the website link. If you would like to make changes or add edits to the code, you can do that by forking this repository and adding it to your personal repositories on GitHub. From there, you can make changes directly on GitHub or download onto your computer and open with the VS Code application or your preferred coding app. 
 
 ## How to make a site like this one
 - Adding collections (like fellows)
