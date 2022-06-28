@@ -6,7 +6,7 @@ The Digital Scholarship Summer Fellow Blog was a beginner project for the fellow
 
 ### Which kinds of code did we use?
 - HTML
-- CSS
+- SCSS
 - JavaScript/Bootstrap
 - Jekyll/Ruby
   
