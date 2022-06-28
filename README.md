@@ -1,4 +1,4 @@
-# DSSF 2022 Blog Site
+# [DSSF 2022 Blog Site](https://cboucher01.github.io/dssf-blog/)
 
 (Brief description of site)
 - What does our site do?
