@@ -75,10 +75,12 @@ Then, in order to view our changes on our website, we updated the `assets/css/st
 
 ```
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
-@import "minima/initialize";
+@import
+  "minima/skins/{{ site.minima.skin | default: 'lemon-lime' }}",
+  "minima/initialize";
 ```
 
 ## Useful resources:
