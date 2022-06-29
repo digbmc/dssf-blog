@@ -22,10 +22,10 @@ The best way to run this project is to click on the website link [here](https://
 
 If you would like to make changes or add edits to the code, you can do that by forking this repository and adding it to your personal repositories on GitHub. From there, you can make changes directly on GitHub or download onto your computer and open with the VS Code application or your preferred text editor. 
 
-## How to make a site like this one
-- Adding collections (like fellows)
-- Changing SCSS files to change the look of the site
-- The creature background (what we did and how you might do it better with vectors instead of raster images)
+## Site Features
+- Navbar
+- Templates/Skins
+- Background
 
 ### Navbar
 - To view the code used for the navigation bar: locate the folder labeled "_ includes" then open the file labeled "header.html". Code for the navigation bar begins at <nav class=...
