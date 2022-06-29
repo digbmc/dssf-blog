@@ -25,7 +25,6 @@ If you would like to make changes or add edits to the code, you can do that by f
 ## How to make a site like this one
 - Adding collections (like fellows)
 - Changing SCSS files to change the look of the site
-- Creating our own skin based on the skins that come with Minima
 - The creature background (what we did and how you might do it better with vectors instead of raster images)
 
 ### Navbar
@@ -82,6 +81,27 @@ Then, in order to view our changes on our website, we updated the `assets/css/st
   "minima/skins/{{ site.minima.skin | default: 'lemon-lime' }}",
   "minima/initialize";
 ```
+
+### Site Background
+1. The gradient: To create the color gradient we edited the body section of the base.scss file within sass/minima as follows
+```
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    /* background-color: $background-color; */
+    background-image: linear-gradient($background-color-1, $background-color-2);
+```
+background-color1 and background-color2 are defined in the lemon-lime.scss skin, or by whichever skin is initialized in your code. 
+
+2. The background image: To add the background image, we first took pictures of the creatures and traced them using ClipStudio Paint. We then arranged them on a transparent png background so that they would repeat as shown on the blog when "tiled". Tiling is when a rendered image repeats to fill a display space. Jekyll automatically tiles background images. The pattern we made is called creature-tile.png and can be found in the assets folder under the creature-icons sub-folder.
+
+To implement this we added the following section to the base.scss file found in the sass/minima folder:
+```
+.creature-background {
+    background-image: url(/dssf-blog/assets/creature-icons/creature-tile.png);
+  }
+```
+Then a div class called "creature-background" was added to each page.
 
 ## Useful resources:
 - [Minima](https://github.com/jekyll/minima)
