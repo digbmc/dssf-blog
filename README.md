@@ -27,6 +27,8 @@ If you would like to make changes or add edits to the code, you can do that by f
 - How to do a navbar like ours
 - Changing SCSS files to change the look of the site
 - Creating our own skin based on the skins that come with Minima
+
+According to [Minima](https://github.com/jekyll/minima), you should start out with at least the following code in your `assets/css/style.scss` file
 ```
 ---
 ---
