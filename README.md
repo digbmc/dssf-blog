@@ -32,7 +32,7 @@ If you would like to make changes or add edits to the code, you can do that by f
 - To view the code used for the navigation bar: locate the folder labeled "_ includes" then open the file labeled "header.html". Code for the navigation bar begins at <nav class=...
 - This navigation bar was created by following the Bootstrap 4.0 Documentation found [here](https://getbootstrap.com/docs/4.0/components/navbar/). While Minima has responsive elements within the theme, for the sake of our project goals this summer we wanted to learn more about Bootstrap by integrating this navigation bar ourselves.
 - Within the folder labeled "_sass\minima" in the file "_layout.scss" we adjusted the padding and alignment of the navigation bar under the "site.nav" section and added further styling.
-'''
+```
   .site-nav {
     position: absolute;
     top: $spacing-unit / 2;
@@ -45,7 +45,7 @@ If you would like to make changes or add edits to the code, you can do that by f
     flex-wrap: nowrap;
   
     }
-'''
+```
 - You can load the Minima sample site to view the differences between the default navigation bar and ours in appearance, or open the page source (right click on the page and select view page source from the dropdown) to compare the code in your browser.
 - If you are building the Bootstrap 4.0 Navbar into your Jekyll site through the default Minima theme like we did and notice an alignment error when minimizing the desktop window (or on mobile) where the opened menu is not inline with the Site Title, we fixed this problem by adding "flex-wrap: nowrap;" to the "_layout.scss" file under the "site.nav" section. 
 
