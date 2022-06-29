@@ -60,7 +60,7 @@ According to [Minima](https://github.com/jekyll/minima), you should start out wi
 @import "minima/initialize";
 ```
 
-To design our signature “lemon-lime” theme used on our site, we copied the code of the classic minima skin, copied it all into a new file called `lemon-lime.scss` , and then changed code and added new code, like `$background-color-1:      #82a573 !default;` and `$link-hover-color:      $text-color-1 !default;` to create the new skin.
+To design our signature “lemon-lime” theme used on our site, we copied the code of the classic minima skin from [here](https://github.com/jekyll/minima/tree/master/_sass/minima/skins), pasted it all into a new file called `lemon-lime.scss` , and then changed code and added new code, like `$background-color-1:      #82a573 !default;` and `$link-hover-color:      $text-color-1 !default;` to create the new skin.
 - just a note, the dollar sign $ refers to a new variable we created such as $background-color-1 which you can assign to other variable in your code and it will copy and retain the same information that you originally assigned to that variable. For example, the `$link-hover-color` is a new variable but we are assigning the same colors and setiting as `$text-color-1` which are just listed as #000000, or black, in hex color values. 
 
 ```
