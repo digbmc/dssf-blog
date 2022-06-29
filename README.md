@@ -61,7 +61,9 @@ According to [Minima](https://github.com/jekyll/minima), you should start out wi
 @import "minima/initialize";
 ```
 
-To design our signature “lemon-lime” theme used on our site, we copied the code of the classic minima skin, copied it all into a new file called `lemon-lime.scss` , and then changed code and added new code, like `$background-color-1:      #82a573 !default;` to create the new skin. 
+To design our signature “lemon-lime” theme used on our site, we copied the code of the classic minima skin, copied it all into a new file called `lemon-lime.scss` , and then changed code and added new code, like `$background-color-1:      #82a573 !default;` and `$link-hover-color:      $text-color-1 !default;` to create the new skin.
+- just a note, the dollar sign $ refers to a new variable we created such as $background-color-1 which you can assign to other variable in your code and it will copy and retain the same information that you originally assigned to that variable
+
 ```
 .
 ├── _sass/minima
@@ -69,7 +71,15 @@ To design our signature “lemon-lime” theme used on our site, we copied the c
     └── lemon-lime.scss
 ```
 
-Then, in order to view our changes on our website, we updated the `assets/css/style.scss` file to include the default theme 'lemon-lime' instead of 'classic,' which updated our changes. 
+Then, in order to view our changes on our website, we updated the `assets/css/style.scss` file to include the default theme 'lemon-lime' instead of 'classic,' which finalized our changes. 
+
+```
+---
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+```
 
 ## Useful resources:
 - [Minima](https://github.com/jekyll/minima)
