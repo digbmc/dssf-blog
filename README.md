@@ -25,7 +25,7 @@ If you would like to make changes or add edits to the code, you can do that by f
 ## Site Features
 - Navbar
 - Templates/Skins
-- Background
+- Site Background
 
 ### Navbar
 - To view the code used for the navigation bar: locate the folder labeled "_ includes" then open the file labeled "header.html". Code for the navigation bar begins at <nav class=...
@@ -48,7 +48,7 @@ If you would like to make changes or add edits to the code, you can do that by f
 - You can load the Minima sample site to view the differences between the default navigation bar and ours in appearance, or open the page source (right click on the page and select view page source from the dropdown) to compare the code in your browser.
 - If you are building the Bootstrap 4.0 Navbar into your Jekyll site through the default Minima theme like we did and notice an alignment error when minimizing the desktop window (or on mobile) where the opened menu is not inline with the Site Title, we fixed this problem by adding "flex-wrap: nowrap;" to the "_layout.scss" file under the "site.nav" section. 
 
-### Customizing templates: creating our lemon-lime theme
+### Customizing Templates: Creating Our Lemon-Lime Skin
 In order to change the color palette and overall theme of the website, we used a feature called “skins.” Skins allow you to create an entire theme that, with just editing a line of code, you can change your website's fonts, font colors, background, opacity, and really anything else you'd like. 
 
 According to [Minima](https://github.com/jekyll/minima), you should start out with *at least* the following code in your `assets/css/style.scss` file
