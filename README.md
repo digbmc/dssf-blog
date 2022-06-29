@@ -61,6 +61,15 @@ According to [Minima](https://github.com/jekyll/minima), you should start out wi
 @import "minima/initialize";
 ```
 
+To design our signature “lemon-lime” theme used on our site, we copied the code of the classic minima skin, copied it all into a new file called `lemon-lime.scss` , and then changed code and added new code, like `$background-color-1:      #82a573 !default;` to create the new skin. 
+```
+.
+├── _sass/minima
+└── skins
+    └── lemon-lime.scss
+```
+
+Then, in order to view our changes on our website, we updated the `assets/css/style.scss` file to include the default theme 'lemon-lime' instead of 'classic,' which updated our changes. 
 
 ## Useful resources:
 - [Minima](https://github.com/jekyll/minima)
