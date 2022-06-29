@@ -49,7 +49,7 @@ If you would like to make changes or add edits to the code, you can do that by f
 - If you are building the Bootstrap 4.0 Navbar into your Jekyll site through the default Minima theme like we did and notice an alignment error when minimizing the desktop window (or on mobile) where the opened menu is not inline with the Site Title, we fixed this problem by adding "flex-wrap: nowrap;" to the "_layout.scss" file under the "site.nav" section. 
 
 ### Customizing templates: creating our lemon-lime theme
-In order to change the color palette and overall theme of the website, we used a feature called “skins.” Skins allow you to create an entire theme that, with just editing a line of code, you can change your website's fonts, font colors, background, opacity, and really anything else you'd like. If you  
+In order to change the color palette and overall theme of the website, we used a feature called “skins.” Skins allow you to create an entire theme that, with just editing a line of code, you can change your website's fonts, font colors, background, opacity, and really anything else you'd like. 
 
 According to [Minima](https://github.com/jekyll/minima), you should start out with *at least* the following code in your `assets/css/style.scss` file
 ```
@@ -61,7 +61,7 @@ According to [Minima](https://github.com/jekyll/minima), you should start out wi
 ```
 
 To design our signature “lemon-lime” theme used on our site, we copied the code of the classic minima skin from [here](https://github.com/jekyll/minima/tree/master/_sass/minima/skins), pasted it all into a new file called `lemon-lime.scss` , and then changed code and added new code, like `$background-color-1:      #82a573 !default;` and `$link-hover-color:      $text-color-1 !default;` to create the new skin.
-- just a note, the dollar sign $ refers to a new variable we created such as $background-color-1 which you can assign to other variable in your code and it will copy and retain the same information that you originally assigned to that variable. For example, the `$link-hover-color` is a new variable but we are assigning the same colors and setiting as `$text-color-1` which are just listed as #000000, or black, in hex color values. 
+- just a note, the dollar sign $ refers to a new variable we created such as $background-color-1 which you can assign to other variable in your code and it will copy and retain the same information that you originally assigned to that variable. For example, the `$link-hover-color` is a new variable but we are assigning the same colors and setting as `$text-color-1` which are just listed as #000000, or black, in hex color values. 
 
 ```
 .
@@ -90,12 +90,9 @@ body {
     color: $text-color;
     /* background-color: $background-color; */
     background-image: linear-gradient($background-color-1, $background-color-2);
-```
-background-color1 and background-color2 are defined in the lemon-lime.scss skin, or by whichever skin is initialized in your code. 
+``` 
 
-2. The background image: To add the background image, we first took pictures of the creatures and traced them using ClipStudio Paint. We then arranged them on a transparent png background so that they would repeat as shown on the blog when "tiled". Tiling is when a rendered image repeats to fill a display space. Jekyll automatically tiles background images. The pattern we made is called creature-tile.png and can be found in the assets folder under the creature-icons sub-folder.
-
-To implement this we added the following section to the base.scss file found in the sass/minima folder:
+2. The background image: To add the background image, we first took pictures of the creatures and traced them using ClipStudio Paint. We then arranged them on a transparent png background so that they would repeat as shown on the blog when "tiled". Tiling is when a rendered image repeats to fill a display space. Jekyll automatically tiles background images. The pattern we made is called creature-tile.png and can be found in the assets folder under the creature-icons sub-folder. To implement this we added the following section to the base.scss file found in the sass/minima folder:
 ```
 .creature-background {
     background-image: url(/dssf-blog/assets/creature-icons/creature-tile.png);
