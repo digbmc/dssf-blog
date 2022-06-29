@@ -29,6 +29,7 @@ If you would like to make changes or add edits to the code, you can do that by f
 - Creating our own skin based on the skins that come with Minima
 - The creature background (what we did and how you might do it better with vectors instead of raster images)
 
+### Skins: creating our lemon-lime theme
 In order to change the color palette and overall theme of the website, we used a feature called “skins.” Skins allow you to create an entire theme that, with just editing a line of code, you can change your website's fonts, font colors, background, opacity, and really anything else you'd like. If you  
 
 According to [Minima](https://github.com/jekyll/minima), you should start out with *at least* the following code in your `assets/css/style.scss` file
