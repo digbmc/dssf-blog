@@ -44,21 +44,6 @@ If you would like to make changes or add edits to the code, you can do that by f
     text-align: right;
     flex-wrap: nowrap;
   
-    .nav-trigger {
-      display: none;
-    }
-  
-    .menu-icon {
-      float: right;
-      width: 36px;
-      height: 36px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-  
-      > svg path {
-        fill: $brand-color;
-      }
     }
 '''
 - You can load the Minima sample site to view the differences between the default navigation bar and ours in appearance, or open the page source (right click on the page and select view page source from the dropdown) to compare the code in your browser.
