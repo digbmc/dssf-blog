@@ -24,10 +24,45 @@ If you would like to make changes or add edits to the code, you can do that by f
 
 ## How to make a site like this one
 - Adding collections (like fellows)
-- How to do a navbar like ours
 - Changing SCSS files to change the look of the site
 - Creating our own skin based on the skins that come with Minima
 - The creature background (what we did and how you might do it better with vectors instead of raster images)
+
+### Navbar
+- To view the code used for the navigation bar: locate the folder labeled "_ includes" then open the file labeled "header.html". Code for the navigation bar begins at <nav class=...
+- This navigation bar was created by following the Bootstrap 4.0 Documentation found [here](https://getbootstrap.com/docs/4.0/components/navbar/). While Minima has responsive elements within the theme, for the sake of our project goals this summer we wanted to learn more about Bootstrap by integrating this navigation bar ourselves.
+- Within the folder labeled "_sass\minima" in the file "_layout.scss" we adjusted the padding and alignment of the navigation bar under the "site.nav" section and added further styling.
+'''
+  .site-nav {
+    position: absolute;
+    top: $spacing-unit / 2;
+    right: $spacing-unit / 2;
+    background-color: $background-color-2;
+    border: 1px solid $border-color-01;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: right;
+    flex-wrap: nowrap;
+  
+    .nav-trigger {
+      display: none;
+    }
+  
+    .menu-icon {
+      float: right;
+      width: 36px;
+      height: 36px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+  
+      > svg path {
+        fill: $brand-color;
+      }
+    }
+'''
+- You can load the Minima sample site to view the differences between the default navigation bar and ours in appearance, or open the page source (right click on the page and select view page source from the dropdown) to compare the code in your browser.
+- If you are building the Bootstrap 4.0 Navbar into your Jekyll site through the default Minima theme like we did and notice an alignment error when minimizing the desktop window (or on mobile) where the opened menu is not inline with the Site Title, we fixed this problem by adding "flex-wrap: nowrap;" to the "_layout.scss" file under the "site.nav" section. 
 
 ### Skins: creating our lemon-lime theme
 In order to change the color palette and overall theme of the website, we used a feature called “skins.” Skins allow you to create an entire theme that, with just editing a line of code, you can change your website's fonts, font colors, background, opacity, and really anything else you'd like. If you  
