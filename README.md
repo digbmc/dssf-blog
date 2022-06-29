@@ -28,10 +28,11 @@ If you would like to make changes or add edits to the code, you can do that by f
 - Changing SCSS files to change the look of the site
 - Creating our own skin based on the skins that come with Minima
 ```
-.
-├── minima.scss
-└── minima
-    └── _syntax-highlighting.scss
+---
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
 ```
 
 - The creature background (what we did and how you might do it better with vectors instead of raster images)
