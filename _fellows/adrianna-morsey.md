@@ -1,10 +1,7 @@
 ---
-title: Adrianna Morsey
-name: Adrianna Morsey
-position: DSSF
-description: >
-    Bryn Mawr College '23, Cities Major
 layout: fellow
+title: Adrianna Morsey
+description: Bryn Mawr College '23, Cities Major
 list_title: Adrianna's Posts
 image: /dssf-blog/assets/creature-icons/creature-2.png
 ---

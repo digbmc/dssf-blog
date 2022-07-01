@@ -3,5 +3,5 @@
 ---
 
 @import
-  "minima/skins/{{ site.minima.skin | default: 'sprite' }}",
+  "minima/skins/{{ site.minima.skin | default: 'lemon-lime' }}",
   "minima/initialize";

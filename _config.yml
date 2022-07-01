@@ -39,8 +39,8 @@ plugins:
 collections: 
   fellows:
     defaults:
-      layout: about
-    sort_by: name
+      layout: fellow
+    sort_by: title
     output: true
 
 # Exclude from processing.

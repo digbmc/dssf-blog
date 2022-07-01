@@ -6,10 +6,7 @@
   <body>
     <div class="creature-background">
       {%- include header.html -%}
-      {%- if page.hero-header -%}
-        {%- include hero-header.html -%}
-      {%- endif -%}
-      {%- if page.home-header -%}
+      {%- if page.layout == 'home' -%}
         {%- include home-header.html -%}
       {%- endif -%}
       
